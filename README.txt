@@ -89,7 +89,9 @@ III. HOW TO RUN
 	 		
 	 	will produce output with syllables separated by underscore characters and use a plain text
 		output file instead of an XML file.
-	 	
+
+		Use -nt option to skip tokenizing process
+			./vnTagger.sh -i input -o output -nt 	 	
 	- Under Microsoft Windows, use the provided script "vnTagger.bat" instead of "vnTagger.sh"  
 		to run the program. All the options are similar as described above.
 
